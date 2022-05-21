@@ -1,6 +1,6 @@
 {
   "name": "@plasmicapp/strapi-plugin-model-schema",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds REST API endpoints for querying model schema.json",
   "strapi": {
     "name": "model-schema",
