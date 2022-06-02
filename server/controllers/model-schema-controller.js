@@ -5,7 +5,7 @@ module.exports = {
     const schema = strapi
       .plugin('model-schema')
       .service('modelSchemaService')
-      .getModelSchema(ctx.query.model);
+      .getModelSchema(ctx.query);
     ctx.body = JSON.stringify(schema);
     ctx.set("Content-Type", "application/json");
   },
